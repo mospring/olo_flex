@@ -1,26 +1,26 @@
-@prefix : <https://github.com/mospring/olo_flex/olo_flex.owl#> .
+@prefix : <https://raw.githubusercontent.com/mospring/olo_flex/master/olo_flex.owl#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <https://github.com/mospring/olo_flex/olo_flex.owl> .
+@base <https://raw.githubusercontent.com/mospring/olo_flex/master/olo_flex.owl> .
 
-<https://github.com/mospring/olo_flex/olo_flex.owl> rdf:type owl:Ontology ;
-                                                     owl:imports <http://purl.org/ontology/olo/core#> .
+<https://raw.githubusercontent.com/mospring/olo_flex/master/olo_flex.owl> rdf:type owl:Ontology ;
+                                                                           owl:imports <http://purl.org/ontology/olo/core#> .
 
 #################################################################
 #    Object Properties
 #################################################################
 
-###  https://github.com/mospring/olo_flex/olo_flex.owl#hasItem
+###  https://raw.githubusercontent.com/mospring/olo_flex/master/olo_flex.owl#hasItem
 :hasItem rdf:type owl:ObjectProperty ;
          rdfs:domain <http://purl.org/ontology/olo/core#Slot> ;
          rdfs:comment "If the item of a slot is an object, use this object property." ;
          rdfs:label "hasItem" .
 
 
-###  https://github.com/mospring/olo_flex/olo_flex.owl#hasLength
+###  https://raw.githubusercontent.com/mospring/olo_flex/master/olo_flex.owl#hasLength
 :hasLength rdf:type owl:ObjectProperty ;
            rdfs:domain <http://purl.org/ontology/olo/core#OrderedList> ;
            rdfs:comment "If the length of an OrderedList is an object, use this object property." ;
